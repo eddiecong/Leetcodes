@@ -1,3 +1,4 @@
+# Dummy Solution:
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
         tasks_backup = [item for item in tasks]
@@ -29,6 +30,7 @@ class Solution:
 
 
 # Official Solution:
+# Use the heap data structure to solve the question.
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
         # Sort based on min task processing time or min task index.

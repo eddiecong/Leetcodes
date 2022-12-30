@@ -1,5 +1,6 @@
 import math
 
+
 # Dummy solution:
 class Solution:
     def minStoneSum(self, piles: List[int], k: int) -> int:
@@ -8,6 +9,7 @@ class Solution:
             piles = sorted(piles)
             piles[-1] = math.ceil(piles[-1] / 2)
         return sum(piles)
+
 
 # Python heap solution:
 import heapq

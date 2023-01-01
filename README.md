@@ -3,4 +3,6 @@ Tracking of leetcode problems
 
 
 ## This repo is a collection of leetcodes problems:
-To be Updated.
+Including Python and C++ two versions of codes:
+
+### Focus On Python Currently:
